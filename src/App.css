@@ -1,0 +1,166 @@
+
+#root{
+  width: 100%;
+}
+
+
+header{
+  width: 100%;
+  height: 150px;
+  background-color: rgb(255, 233, 38);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+nav{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+.logo{
+  width: 8%;
+  height: 90%;
+
+ 
+}
+img{
+  width: 100%;
+  height: 100%;
+  border-radius:100%;
+  border: 2px dashed rgb(19, 208, 255);
+}
+ul{
+  width:60%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+li {
+  font-size: 35px;
+  list-style: none;
+  color: crimson;
+}
+.contador{
+  text-align: center;
+  width: 20%;
+  height: auto;
+  margin: 100px auto;;
+}
+.verde{
+  color:greenyellow
+}
+.negro{
+  color:white;
+}
+.input{
+  width:20%;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-around;
+ 
+}
+.input input{
+  margin: 10px 0 10px 0;
+  height: 45px;;
+  border-radius: 15px;
+  padding-left: 8px;
+  font-size: 25px;
+}
+.color{
+  width: 20%;
+ 
+  margin: 50px auto;
+  height: 350px;;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  
+  
+}
+.color div{
+  width: 250px;
+  height: 225px;
+  margin: 5px auto;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 55px;
+  border-bottom-right-radius: 80px;
+  border-bottom-left-radius: 8px;
+}
+.color input{
+  width: 150px;
+  height: 35px;
+  margin: 5px auto;
+  
+}
+.botones{
+  width: 100%;
+  display: flex;
+}
+.container-tweets{
+  width: 20%;
+  height: auto;
+  margin: 50px auto;
+  text-align: center;
+}
+.container-tweet{
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: rgba(7, 7, 7, 0.466);
+  height: auto;
+  max-height:80px ;
+  overflow: hidden;
+  padding: 5px;
+}
+.container-tweets h5{
+  font-size: 20px;
+}
+.container-tweets h2{
+  
+  color:rgb(255, 0, 85);
+}
+.container-tweets h3{
+ 
+  color:rgb(187, 255, 0);
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  max-height: 300px;
+  overflow-y: auto;
+  width: 100%;
+  background-color: rgba(107, 107, 107, 0.178);
+  border-radius: 20px;
+  margin-top: 20px;
+  
+}
+.ul li{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  max-width: 100%;
+  list-style:lower-greek;
+  
+  
+
+}
+.rojo{
+  color:rgb(255, 57, 57);
+}
+.text{
+  width: 100%;
+  height: 100px;
+  resize: none;
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
