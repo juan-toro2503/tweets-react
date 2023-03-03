@@ -23,7 +23,7 @@ function Provider(props){
 
         }else{
             if(tweetValue==""){
-                alert("please insert a tweet")
+                alert("please public a tweet")
 
             }else{
                 let arrayLocal=localStorage.getItem("archived");
@@ -46,12 +46,21 @@ function Provider(props){
     }
     
     const getTweets=()=>{
+        
         setTweets(tweetsArray)
+        
+        
       
     }
-    const deleteTweet=(event)=>{
-        let eliminar=tweets.findIndex(tweet=>tweet==event)
-        tweets.splice(eliminar,1)
+    const deleteTweet=(event)=>{  
+        setTweets(tweets.splice(event.target.id,1))
+        localStorage.setItem("archived",JSON.stringify(tweets))
+        if(tweets.length==0){
+            setTweets([])
+        }
+
+
+        
         
         
     }

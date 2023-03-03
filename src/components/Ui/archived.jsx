@@ -8,7 +8,7 @@ export const Archived = () => {
   
   return (
     <ul className='ul'>
-      {tweets.map((tweet,index) => <li key={index}  >-{tweet}<p onMouseDown={deleteTweet}>x</p></li> )}
+      {tweets.map((tweet,index) => <li id={index} key={index}  >-   {tweet}<p onClick={deleteTweet}>x</p></li> )}
 
     </ul>
     
